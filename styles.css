@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.contacto{
+    height: 0px;
+    visibility: hidden;
+}
+
+.habilidades{
+    height: 0px;
+    visibility: hidden;
+}
+
+.inicio{
+    height: 0px;
+    visibility: hidden;
+}
+
+.java{
+    height: 0px;
+    visibility: hidden;
+}
+
+.python{
+    height: 0px;
+    visibility: hidden;
+}
+
+.webapp{
+    height: 0px;
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+}
