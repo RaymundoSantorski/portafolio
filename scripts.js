@@ -1,3 +1,7 @@
+var btnBuscar = document.getElementById("buscar");
+
+btnBuscar.addEventListener('click', (e) => {console.log(e.target);});
+
 function mostrar(id){
     var elemento = document.getElementById(id);
     var cl = document.getElementsByName("drop");
@@ -11,3 +15,6 @@ function mostrar(id){
         elemento.classList.add("active");
     }
 }
+
+
+
